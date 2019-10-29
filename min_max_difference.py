@@ -12,4 +12,8 @@ def main():
 
     return max_num - min_num
 
-print(main())
+def alternate():
+    the_array = [15, 22, 84, 14, 88, 23]
+    return max(the_array) - min(the_array)
+
+# print(main())
